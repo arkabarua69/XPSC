@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define nl endl
+#define cy cout << "YES" << endl
+#define cn cout << "NO" << endl
+void GunJon()
+{
+    int n, k;
+    cin >> n >> k;
+    int a = n - k;
+    for (int i = a; i <= n; i++)
+    {
+        cout << i <<" ";
+    }
+    for (int i = a-1; i >= 1; i--)
+    {
+        cout << i <<" ";
+    }
+    cout << nl;
+}
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        GunJon();
+    }
+}
+/*Code by Gunjon*/
